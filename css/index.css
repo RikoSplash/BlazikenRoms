@@ -338,5 +338,12 @@ div.ns img {
   display: block;
 }
 
+.hidde1 {
+  width: 0px;
+}
+
+.hidde2 {
+  width: 0px;
+}
 
 }
