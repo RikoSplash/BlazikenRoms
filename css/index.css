@@ -284,36 +284,36 @@ p.foter {
   width: 360px;
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 1080px) {
 
 body {
     background-color: rgb(0, 0, 0);
 }
 
 header {
-    width: 1427px;
-    height: 200px;
+    width: 1453px;
+    height: 300px;
     background-color: #ea7501;
 }
 
 nav {
-  width: 1427px;
-  height: 50px;
-  font-size: 35px;
+  width: 1453px;
+  height: 70px;
+  font-size: 45px;
   background-color: #f5bb81;
   display: flex;
   justify-content: center ;
 }
 
 a.enlaces {
-  margin-top: 2px;
+  margin-top: 4px;
   margin-left: 35px;
 }
 
 .logo {
   margin-top: 2px;
   margin-left: 10px;
-  width: 160px;
+  width: 240px;
 }
 
 
