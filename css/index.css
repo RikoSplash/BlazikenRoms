@@ -284,20 +284,20 @@ p.foter {
   width: 360px;
 }
 
-@media only screen and (max-width: 1080px) {
+@media screen and (max-width: 768px) {
 
 body {
     background-color: rgb(0, 0, 0);
 }
 
 header {
-    width: 1453px;
+    width: 100%;
     height: 300px;
     background-color: #ea7501;
 }
 
 nav {
-  width: 1453px;
+  width: 100%;
   height: 70px;
   font-size: 45px;
   background-color: #f5bb81;
