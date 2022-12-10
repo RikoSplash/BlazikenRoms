@@ -1,0 +1,285 @@
+body {
+    background-color: black;
+}
+
+header {
+    margin: 0px;
+    width: 100%;
+    height: 100px;
+    background-color: #ea7501;
+}
+
+nav {
+  margin: 0px;
+  width: 100%;
+  height: 25px;
+  background-color: #f5bb81;
+  display: flex;
+  justify-content: center ;
+}
+
+a.gb {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+a.enlaces {
+  margin-top: 2px;
+  margin-left: 10px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+}
+
+a.enlaces:hover {
+  color:#004cff;
+  text-shadow: 0px 0px 5px rgb(0, 170, 255);
+}
+
+.logo {
+    margin-top: 2px;
+    margin-left: 10px;
+    width: 80px;
+}
+
+.primerfondo {
+    margin-top: 10px;
+    width: 700px;
+}
+
+.futer {
+  display: flex;
+  justify-content: end;
+  background-color: rgba(51, 51, 51, 0.496);
+  color: white;
+}
+
+img {
+  display: block;
+  margin: auto;
+  margin-top: 4px;
+}
+
+/* DESPLEGABLE */
+button {
+  height: 100px;
+  background-color: #ea7501;
+  border: none;
+}
+
+.dropdown {
+    width: 500px;
+    display: inline-block;
+    position: relative;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content a {
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 300px;
+    display: block;
+    color: white;
+    background-color: #ea7501;
+    padding: 5px;
+    text-decoration: none;
+  }
+  .dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: #bd0000;
+  }
+
+/* OTRAS COSITAS */
+
+p.foter {
+  margin: 23px;
+}
+
+.gb {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.ns {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+.rgb {
+  width: 250px;
+  transition: all 200ms ease-out;
+}
+
+.rgb:hover {
+  border-radius: 12px;
+  transform: scale(1.1);
+  box-shadow: 0px 0px 70px #ff0000;
+  transition: all 200ms ease-in;
+}
+
+.agb {
+  width: 250px;
+  transition: all 200ms ease-out;
+}
+
+.agb:hover {
+  border-radius: 12px;
+  transform: scale(1.1);
+  box-shadow: 0px 0px 70px #004cff;
+  transition: all 200ms ease-in;
+}
+
+.amgb {
+  width: 250px;
+  transition: all 200ms ease-out;
+}
+
+.amgb:hover {
+  border-radius: 12px;
+  transform: scale(1.1);
+  box-shadow: 0px 0px 70px #fff700;
+  transition: all 200ms ease-in;
+}
+
+.vgb {
+  width: 250px;
+  transition: all 200ms ease-out;
+}
+
+.vgb:hover {
+  border-radius: 12px;
+  transform: scale(1.1);
+  box-shadow: 0px 0px 70px #6fff00;
+  transition: all 200ms ease-in;
+}
+
+.ogb {
+  width: 250px;
+  transition: all 200ms ease-out;
+}
+
+.ogb:hover {
+  border-radius: 12px;
+  transform: scale(1.1);
+  box-shadow: 0px 0px 70px #ffbf00;
+  transition: all 200ms ease-in;
+}
+
+.pgb {
+  width: 250px;
+  transition: all 200ms ease-out;
+}
+
+.pgb:hover {
+  border-radius: 12px;
+  transform: scale(1.1);
+  box-shadow: 0px 0px 70px #aaa2a2;
+  transition: all 200ms ease-in;
+}
+
+.cgb {
+  width: 250px;
+  transition: all 200ms ease-out;
+}
+
+.cgb:hover {
+  border-radius: 12px;
+  transform: scale(1.1);
+  box-shadow: 0px 0px 70px #00e1ff;
+  transition: all 200ms ease-in;
+}
+
+.bgb {
+  width: 250px;
+  transition: all 200ms ease-out;
+}
+
+.bgb:hover {
+  border-radius: 12px;
+  transform: scale(1.1);
+  box-shadow: 0px 0px 70px #0099ff;
+  transition: all 200ms ease-in;
+}
+
+.ngb {
+  width: 250px;
+  transition: all 200ms ease-out;
+}
+
+.ngb:hover {
+  border-radius: 12px;
+  transform: scale(1.1);
+  box-shadow: 0px 0px 70px #ff7300;
+  transition: all 200ms ease-in;
+}
+
+.mogb {
+  width: 250px;
+  transition: all 200ms ease-out;
+}
+
+.mogb:hover {
+  border-radius: 12px;
+  transform: scale(1.1);
+  box-shadow: 0px 0px 70px #9d00ff;
+  transition: all 200ms ease-in;
+}
+
+.nagb {
+  width: 250px;
+  transition: all 200ms ease-out;
+}
+
+.nagb:hover {
+  border-radius: 12px;
+  transform: scale(1.1);
+  box-shadow: 0px 0px 70px #ff7300;
+  transition: all 200ms ease-in;
+}
+
+.evegb {
+  width: 250px;
+  transition: all 200ms ease-out;
+}
+
+.evegb:hover {
+  border-radius: 12px;
+  transform: scale(1.1);
+  box-shadow: 0px 0px 70px #b65e17;
+  transition: all 200ms ease-in;
+}
+
+.rosagb {
+  width: 250px;
+  transition: all 200ms ease-out;
+}
+
+.rosagb:hover {
+  border-radius: 12px;
+  transform: scale(1.1);
+  box-shadow: 0px 0px 70px #ff00d9;
+  transition: all 200ms ease-in;
+}
+
+.hidde1 {
+  width: 60px;
+}
+
+.hidde2 {
+  width: 360px;
+}
