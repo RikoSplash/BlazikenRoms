@@ -292,7 +292,7 @@ body {
 
 header {
     width: 100%;
-    height: 300px;
+    height: 200px;
     background-color: #ea7501;
 }
 
@@ -307,13 +307,13 @@ nav {
 
 a.enlaces {
   margin-top: 4px;
-  margin-left: 35px;
+  margin-left: 1px;
 }
 
 .logo {
   margin-top: 2px;
   margin-left: 10px;
-  width: 240px;
+  width: 150px;
 }
 
 
