@@ -284,8 +284,11 @@ p.foter {
   width: 360px;
 }
 
-.ap {
-  width: 0px;
+label {
+  margin-left: 6px;
+  margin-top: 2px;
+  color: white;
+  font-weight: bolder;
 }
 
 @media screen and (max-width: 768px) {
@@ -294,8 +297,46 @@ p.foter {
   width: 0px;
 }
 
-.ap {
+.ocultado2 {
   width: 100%;
 }
+
+a.enlaces {
+  margin-top: 4px;
+  margin-left: 3px;
+  font-size: 11px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.dropdown {
+  width: 100%;
+}
+
+label {
+  margin-top: 4px;
+  margin-left: 2px;
+  font-size: 12px;
+}
+
+.gb {
+  margin-top: 15px;
+  flex-direction: column;
+}
+
+div.gb img {
+  margin-top: 20px;
+  width: 250px;
+}
+
+div.ns img {
+  width: 0px;
+}
+
+.futer {
+  display: block;
+}
+
 
 }
