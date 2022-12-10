@@ -284,6 +284,18 @@ p.foter {
   width: 360px;
 }
 
+.ap {
+  width: 0px;
+}
+
 @media screen and (max-width: 768px) {
+
+.ocultado {
+  width: 0px;
+}
+
+.ap {
+  width: 100%;
+}
 
 }
