@@ -39,9 +39,13 @@ a.enlaces:hover {
 }
 
 .logo {
-    margin-top: 2px;
+    margin-top: 0px;
     margin-left: 10px;
     width: 80px;
+}
+
+.letra {
+  width: 400px;
 }
 
 .primerfondo {
@@ -106,16 +110,16 @@ p.foter {
 }
 
 .gb {
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 80px;
+  margin-bottom: 80px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
 
 .ns {
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 80px;
+  margin-bottom: 80px;
   display: flex;
   flex-direction: row;
 }
@@ -152,7 +156,7 @@ p.foter {
 .amgb:hover {
   border-radius: 12px;
   transform: scale(1.1);
-  box-shadow: 0px 0px 70px #fff700;
+  box-shadow: 0px 0px 70px #eeff00;
   transition: all 200ms ease-in;
 }
 
@@ -291,6 +295,10 @@ label {
   font-weight: bolder;
 }
 
+.ocultado {
+  width: 100%;
+}
+
 @media screen and (max-width: 768px) {
 
 .ocultado {
@@ -302,7 +310,7 @@ label {
 }
 
 a.enlaces {
-  margin-top: 4px;
+  margin-top: 5px;
   margin-left: 3px;
   font-size: 11px;
   display: flex;
@@ -315,8 +323,9 @@ a.enlaces {
 }
 
 label {
-  margin-top: 4px;
+  margin-top: 5px;
   margin-left: 2px;
+  margin-right: 2px;
   font-size: 12px;
 }
 
@@ -345,5 +354,17 @@ div.ns img {
 .hidde2 {
   width: 0px;
 }
+
+}
+
+@media screen and (max-height: 675px) {
+
+  .hidde1 {
+    width: 10px;
+  }
+  
+  .hidde2 {
+    width: 10px;
+  }
 
 }
