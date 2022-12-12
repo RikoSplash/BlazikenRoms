@@ -10,7 +10,6 @@ header {
 }
 
 nav {
-  position: sticky;
   margin: 0px;
   width: 100%;
   height: 25px;
@@ -27,6 +26,7 @@ a.gb {
 }
 
 a.enlaces {
+  text-decoration: none;
   margin-top: 2px;
   margin-left: 10px;
   color: white;
@@ -301,7 +301,7 @@ label {
 }
 
 /* RESPONSIVE */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1300px) {
 
 .ocultado {
   width: 0px;
@@ -318,10 +318,6 @@ a.enlaces {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-}
-
-.dropdown {
-  width: 100%;
 }
 
 label {
@@ -356,18 +352,6 @@ div.ns img {
 .hidde2 {
   width: 0px;
 }
-
-}
-
-@media screen and (max-height: 675px) {
-
-  .hidde1 {
-    width: 10px;
-  }
-  
-  .hidde2 {
-    width: 10px;
-  }
 
 }
 
