@@ -50,9 +50,9 @@ a.enlaces:hover {
 }
 
 .futer {
-  display: flex;
   background-color: rgba(51, 51, 51, 0.496);
   color: white;
+  padding: 3px;
 }
 
 img {
@@ -99,7 +99,18 @@ button {
 /* OTRAS COSITAS */
 
 p.foter {
-  margin: 23px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+hr {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.futer2 {
+  display: flex;
+  justify-content: center;
 }
 
 .gb {
@@ -342,10 +353,6 @@ div.gb img {
 
 div.ns img {
   width: 0px;
-}
-
-.futer {
-  display: block;
 }
 
 .hidde1 {
