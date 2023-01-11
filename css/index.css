@@ -356,15 +356,20 @@ img.blaziken {
   display: flex;
 }
 
+hr.responsive {
+  display: none;
+}
+
 /* CSS EMULADORES */
 
 .emuladores {
   display: flex;
   justify-content: space-evenly;
-  margin-bottom: 3%;
+  margin-bottom: 80px;
 }
 
 .hidemula {
+  opacity: 0;
   height: 100px;
   width: 100px;
 }
@@ -438,8 +443,17 @@ label {
 }
 
 .gb {
+  align-items: center;
+  justify-content: center;
   margin-top: 15px;
   flex-direction: column;
+}
+
+.emuladores {
+    align-items: center;
+    justify-content: center;
+    margin-top: -15px;
+    flex-direction: column;
 }
 
 div.gb img {
@@ -452,11 +466,36 @@ div.ns img {
 }
 
 .hidde1 {
+  display: none;
   width: 0px;
 }
 
 .hidde2 {
+  display: none;
   width: 0px;
+}
+
+.hidde3 {
+  display: none;
+  height: 0px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.futer {
+  flex-direction: column;
+}
+
+.futer2 {
+  flex-direction: column;
+}
+
+hr.responsive {
+  display: block;
+  margin-bottom: 60px;
 }
 
 }
