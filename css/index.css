@@ -360,6 +360,14 @@ hr.responsive {
   display: none;
 }
 
+label.responsive2 {
+  display: none;
+}
+
+.logos {
+  display: none;
+}
+
 /* CSS EMULADORES */
 
 .emuladores {
@@ -426,10 +434,31 @@ div.moto a:visited {
 /* RESPONSIVE */
 @media screen and (max-width: 1300px) {
 
+.logos {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+div.logos img {
+  width: 60px;
+}
+
+label.responsive2 {
+  display: block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.emuladores {
+  display: none;
+}
+
 a.enlaces {
   margin-top: 5px;
   margin-left: 3px;
-  font-size: 11px;
+  font-size: 10.9px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
